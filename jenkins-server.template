@@ -372,7 +372,10 @@
                                 "curl -O -L https://updates.jenkins-ci.org/latest/aws-codepipeline.hpi\n",
                                 "chown jenkins:jenkins *.hpi\n",
                                 "# Restarting Jenkins\n",
-                                "service jenkins restart\n"
+                                "service jenkins restart\n",
+								"gem install rake\n",
+								"gem install haml\n",
+								"export PATH=$PATH:/usr/local/bin\n"
                             ]
                         ]
                     }
