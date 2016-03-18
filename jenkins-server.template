@@ -374,8 +374,7 @@
                                 "# Restarting Jenkins\n",
                                 "service jenkins restart\n",
 								"gem install rake\n",
-								"gem install haml\n",
-								"export PATH=$PATH:/usr/local/bin\n"
+								"gem install haml\n"
                             ]
                         ]
                     }
