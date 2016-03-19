@@ -362,6 +362,7 @@
                                 "sleep 30\n",
 								"gem install rake\n",
 								"gem install haml\n",
+								"gem install minitest\n",
                                 "# Install the required plugins\n",
                                 "cd /var/lib/jenkins/plugins\n",
                                 "curl -O -L https://updates.jenkins-ci.org/latest/multiple-scms.hpi\n",
