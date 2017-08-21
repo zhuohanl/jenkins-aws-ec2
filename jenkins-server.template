@@ -350,6 +350,8 @@
                                 },
                                 "\n",
                                 "# Install Jenkins\n",
+				"wget --no-cookies --header \"Cookie: gpw_e24=xxx; oraclelicense=accept-securebackup-cookie;\" \"http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-x64.rpm\"\n",
+				"rpm -i jdk-8u144-linux-x64.rpm\n",				
                                 "wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo\n",
                                 "rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key\n",
                                 "yum install -y jenkins\n",
