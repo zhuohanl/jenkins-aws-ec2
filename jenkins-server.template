@@ -351,7 +351,7 @@
                                 "\n",
                                 "# Install Jenkins\n",
 				"wget \"https://s3.amazonaws.com/aws300/jdk-8u162-linux-x64.rpm\"\n",
-				"rpm -i jdk-9.0.4_linux-x64_bin.rpm\n",				
+				"rpm -i jdk-8u162-linux-x64.rpm\n",				
                                 "wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo\n",
                                 "rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key\n",
                                 "yum install -y jenkins\n",
