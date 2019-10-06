@@ -362,6 +362,8 @@
                                 "# Wait 30 seconds to allow Jenkins to startup\n",
                                 "echo \"Waiting 30 seconds for Jenkins to start.....\"\n",
                                 "sleep 30\n",
+                                "yum install -y ruby24\n",
+                                "alternatives --set ruby /usr/bin/ruby2.4\n",
 								"gem install rake\n",
 								"gem install haml\n",
 								"gem install minitest\n",
